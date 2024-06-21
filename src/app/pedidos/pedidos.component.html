@@ -1,0 +1,10 @@
+<!-- src/app/pedidos/pedidos.component.html -->
+<div>
+    <h2>Pedidos</h2>
+    <ul>
+      <li *ngFor="let pedido of pedidos">
+        {{ pedido.clientName }} - {{ pedido.tipo }} - {{ pedido.valorTotal | currency }}
+      </li>
+    </ul>
+  </div>
+  
