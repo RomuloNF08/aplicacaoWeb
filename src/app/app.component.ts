@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { PedidosComponent } from './pedidos/pedidos.component'; 
 
+
 @Component({
   selector: 'app-root',
   standalone: true,

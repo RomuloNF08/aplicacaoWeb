@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
 import { PedidoService } from '../services/pedido.service';
@@ -11,7 +11,7 @@ import { Pedido } from '../models/pedido';
   templateUrl: './pedidos.component.html',
   styleUrls: ['./pedidos.component.css']
 })
-export class PedidosComponent implements OnInit {
+export class PedidosComponent {
   pedidos: Pedido[] = [];
 
   constructor(private pedidoService: PedidoService) { }
