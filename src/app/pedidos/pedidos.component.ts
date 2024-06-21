@@ -6,8 +6,6 @@ import { Pedido } from '../models/pedido';
 
 @Component({
   selector: 'app-pedidos',
-  standalone: true,
-  imports: [CommonModule, HttpClientModule],  
   templateUrl: './pedidos.component.html',
   styleUrls: ['./pedidos.component.css']
 })

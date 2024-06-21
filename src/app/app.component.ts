@@ -6,12 +6,6 @@ import { PedidosComponent } from './pedidos/pedidos.component';
 
 @Component({
   selector: 'app-root',
-  standalone: true,
-  imports: [
-    RouterOutlet,
-    CommonModule,
-    PedidosComponent  
-  ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
